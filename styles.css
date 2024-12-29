@@ -1,0 +1,63 @@
+.header{
+    height: 400px;
+    width: auto;
+    background-color: #1f2937;
+}
+
+.logo{
+    display: flex;
+    width: fit-content;
+    border: 2px solid red;
+}
+
+
+.info, li, ul{
+    display: flex;
+    font: 300;
+    list-style: none;
+    justify-content: space-between;
+    border: 2px solid red
+}
+
+.siteinfo{
+    display: flex;
+    height: 300px;
+    width: auto;
+    gap: 30px;
+    justify-content: center;
+    border: 2px solid purple;
+}
+
+
+.box1,.box2,
+.box3,.box4{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.quotebox {
+    display: flex;
+    height: 400px;
+    width:auto;
+    background-color: #E5E7EB ;
+}
+
+
+.cta{
+   
+    justify-self: center;
+    background-color: #3882f6;
+    height: 70px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.button2{
+    border: 1px solid #E5E7EB ;
+    border-radius: 2px;
+    background-color: #3882f6;
+}
+
+
