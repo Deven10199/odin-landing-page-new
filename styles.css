@@ -1,6 +1,14 @@
+.body{
+    display: flex;
+}
+
+
+
+
+
 .header{
+    justify-content: center;
     height: 400px;
-    width: auto;
     background-color: #1f2937;
 }
 
@@ -14,50 +22,94 @@
 .info, li, ul{
     display: flex;
     font: 300;
+    width: 200px;
     list-style: none;
     justify-content: space-between;
     border: 2px solid red
 }
 
+.infotitle{
+    display: flex;
+    width: auto;
+    border: 2px solid pink;
+    justify-content:center ;
+
+}
+
 .siteinfo{
     display: flex;
-    height: 300px;
+    height: auto;
     width: auto;
     gap: 30px;
     justify-content: center;
-    border: 2px solid purple;
+    border: 1px solid purple;
 }
+
+
 
 
 .box1,.box2,
 .box3,.box4{
+    display: flex;
     height: 100px;
     width: 100px;
-    border: 2px solid red;
+    border: 3px solid #3882f6 ;
     border-radius: 10px;
 }
 
+
+.siteinfotext{
+    display: flex;
+    height: auto;
+    width: auto;
+    gap: 30px;
+    justify-content: center;
+    border: 1px solid purple;
+
+}
+
+.box1text,.box2text,
+.box3text,.box4text {
+   
+    height: 100px;
+    width: 100px;
+    border: 1px solid black ;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
 .quotebox {
     display: flex;
-    height: 400px;
+    height: 300px;
     width:auto;
     background-color: #E5E7EB ;
+    border: 2px solid purple;
 }
 
 
 .cta{
-   
     justify-self: center;
     background-color: #3882f6;
     height: 70px;
     width: 600px;
     border-radius: 5px;
+    border: 2px solid purple;
 }
 
 .button2{
     border: 1px solid #E5E7EB ;
     border-radius: 2px;
     background-color: #3882f6;
+   
 }
 
 
