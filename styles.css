@@ -1,15 +1,20 @@
-.body{
-    display: flex;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2937;
+
 }
 
 
 
-
-
-.header{
-    justify-content: center;
-    height: 400px;
+.header{ display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: auto;
     background-color: #1f2937;
+    justify-content: space-around;
+    
 }
 
 .logo{
@@ -18,21 +23,60 @@
     border: 2px solid red;
 }
 
-
 .info, li, ul{
-    display: flex;
+    display:flex;
     font: 300;
-    width: 200px;
+    width: 400px;
     list-style: none;
+    border: 2px solid red;
     justify-content: space-between;
-    border: 2px solid red
+    
+
 }
+
+.headinfo{
+   color: white;
+   border: 2px solid lightcoral;
+}
+
+.webdisc{
+    border: 2px solid lightcoral;
+}
+
+.caption{
+    border: 2px solid lightcoral;
+}
+
+
+.button1{
+    display: block;
+    height: 30px;
+    width: 80px;
+    border: 1px solid #E5E7EB ;
+    border-radius: 2px;
+    background-color: #3882f6;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .infotitle{
     display: flex;
     width: auto;
     border: 2px solid pink;
     justify-content:center ;
+    background-color: white;
 
 }
 
@@ -72,44 +116,81 @@
 .box3text,.box4text {
    
     height: 100px;
-    width: 100px;
+    width: 150px;
     border: 1px solid black ;
     border-radius: 10px;
 
 }
 
 
-
-
-
-
-
-
-
-
 .quotebox {
-    display: flex;
     height: 300px;
-    width:auto;
-    background-color: #E5E7EB ;
-    border: 2px solid purple;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+.quote{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lightgray ;
+    border: 1px solid red;
+    height: 100px;
+    width: 500px;
+}
+.author{
+    display: block;
+    background-color: lightgray;
+    border: 1px solid red;
+    height: 100px;
+    width: 150px;
+
 }
 
 
+
+
+
+
+
+
+.bottom{
+    margin: 75px;
+    display: flex;
+    justify-content: center;
+}
 .cta{
-    justify-self: center;
     background-color: #3882f6;
     height: 70px;
     width: 600px;
     border-radius: 5px;
     border: 2px solid purple;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+}
+
+
+
+.ctatext, p{
+    color: white;
+    background-color: #3882f6;
+    padding: 0px;
 }
 
 .button2{
-    border: 1px solid #E5E7EB ;
-    border-radius: 2px;
+    color: white;
+    display: block;
+    height: 30px;
+    width: 80px;
+    border:  1px solid #E5E7EB ;
+    border-radius: 5px;
     background-color: #3882f6;
-   
+
 }
 
 
